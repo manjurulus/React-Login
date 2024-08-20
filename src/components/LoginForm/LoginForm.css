@@ -1,16 +1,16 @@
 .wrapper{
     width: 420px;
-    background: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(4px);
     box-shadow: 0 0 10px rgba(255, 255, 255, .2);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 30px 40px;
 }
 .wrapper h1{
     font-size: 36px;
-    text-align: center;
+    text-align: left;
 }
 .wrapper .input-box{
     position: relative;
@@ -24,7 +24,7 @@
     background: transparent;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
+    border-radius: 4px;
     font-size: 16px;
     color: white;
     padding: 20px 45px 20px 20px;
@@ -59,14 +59,14 @@
 .wrapper button{
     width: 100%;
     height: 45px;
-    background: white;
+    background: red;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: white;
     font-weight: 700;
 }
 .wrapper .register-link{

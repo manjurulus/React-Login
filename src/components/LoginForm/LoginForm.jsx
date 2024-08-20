@@ -6,9 +6,9 @@ const LoginForm = () => {
     return (
         <div className="wrapper">
             <form action="">
-                <h1>Login</h1>
+                <h1>Sign In</h1>
                 <div className="input-box">
-                    <input type="text" placeholder="Username" required />
+                    <input type="text" placeholder="Email or mobile number" required />
                     <FaUser className="icon" />
                 </div>
                 <div className="input-box">
